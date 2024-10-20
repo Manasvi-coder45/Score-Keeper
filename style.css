@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("Background\ img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 120px 0px 0px 200px; */
+    /* opacity: unset; */
+    display: block;
+    /* padding-top: 20px; */
+}
+
+h1 {
+    opacity: unset;
+    font-family: cursive;
+    color: rgb(218, 202, 202);
+    font-size: 70px;
+    padding-top: 25vh;
+}
+
+.buttons {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 4px solid rgb(74, 66, 66);
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* gap: 100px; */
+    background-color: beige;
+    min-height: 60px;
+    min-width: 120px;
+    font-size: 20px;
+}
+
+.btn-red {
+    background-color: rgb(233, 0, 0);
+    color: white;
+}
+
+.insert {
+    padding-top: 70px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 2px solid rgb(74, 66, 66);
+    padding: 7px 7px 7px 7px;
+}
+
+input::placeholder {
+    font-size: 26px;  
+  }
+
+h3 {
+    opacity: unset;
+    font-family: math;
+    color: white;
+    padding-top: 40px;
+    font-size: 40px;
+}
