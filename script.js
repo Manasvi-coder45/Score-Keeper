@@ -15,7 +15,13 @@ const tableHTML = `<tr>
         <th>Player 2</th>
     </tr>`;
 
+button1.disabled = true;
+button2.disabled = true;
+reset_btn.disabled = true;
+
 set_btn.addEventListener("click", () => {
+    enableButton();
+    reset_btn.disabled = false;
     let target = display.value;
 })
 
@@ -63,6 +69,9 @@ reset_btn.addEventListener("click", () => {
     table.style.visibility = "hidden";
     stopAddRow();
     display.value = "";
+    button1.disabled = true;
+    button2.disabled = true;
+    reset_btn.disabled = true;
 })
 
 const addRow = () => {
