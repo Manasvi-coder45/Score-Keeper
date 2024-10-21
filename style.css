@@ -29,7 +29,7 @@ h1 {
     font-family: cursive;
     color: rgb(218, 202, 202);
     font-size: 70px;
-    padding-top: 25vh;
+    padding-top: 10vh;
 }
 
 .buttons {
@@ -78,6 +78,28 @@ h3 {
     opacity: unset;
     font-family: math;
     color: white;
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 40px;
+}
+
+table {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* display: grid; */
+    border-color: black;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 2px 2px 2px 2px;
+    height: 100px;
+    width: 300px;
+}
+
+.display {
+    justify-content: center;
+    align-items: center;
+    padding-left: 43vw;
+    padding-top: 50px;
 }
