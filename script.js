@@ -23,6 +23,15 @@ set_btn.addEventListener("click", () => {
     enableButton();
     reset_btn.disabled = false;
     let target = display.value;
+    if (target <= 0) {
+        alert("Please enter a valid input");
+        location.reload();
+    } else {
+        target = display.value;
+    }
+    // if (confirm("Press OK to refresh the page.")) {
+    //     location.reload();
+    // }
 })
 
 button1.addEventListener("click", () => {
